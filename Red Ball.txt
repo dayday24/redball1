@@ -1,8 +1,0 @@
-<html>
-<head>
-<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
-</head>
-<body>
-<img src="http://darron.net/wp-content/uploads/sites/6/2013/11/huge_red_ball.jpg" alt="Smiley face" height="42" width="42">
-</body>
-</html>
