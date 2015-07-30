@@ -1,0 +1,60 @@
+<html>
+<head>
+<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
+<style>
+#redball{
+position: absolute;
+left: 90px;
+top: 100px;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script type='text/javascript'>
+function moveright(){  redball.left = redball.left + 10
+ 
+					}
+		</script>
+		<script>
+function grow(){
+	var elem = $("#Kick");
+	elem.css("font-size","64px");
+}
+function fadeout(){
+	var elem = $("#Kick");
+	elem.fadeOut();
+}
+function fadein(){
+	var elem = $("#Kick");
+	elem.fadeIn();
+}
+function shrink(){
+	var elem = $("#Kick");
+	elem.css("font-size","24px");
+}
+
+</script>
+</head>
+<body>
+<p id="Kick">Day's Bouncy Ball</p>
+<img id='redball' src='http://stream1.gifsoup.com/view1/1148355/karate-kick-to-nuts-o.gif'/>
+<button onclick="moveright();">move right</button>
+<button onclick="grow();">grow</button>
+<button onclick="fadeout();">fade out</button>
+<button onclick="fadein();">fade in</button>
+<button onclick="shrink();">Shrink</button>
+<style>
+p {
+color: red;
+}
+</style>
+<style>
+body{
+background-color:Black;
+}
+</style>
+
+</body>
+</html>
+
+
+
