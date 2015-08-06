@@ -1,6 +1,5 @@
 <html>
 <head>
-<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
 <style>
 #redball{
 position: absolute;
@@ -9,12 +8,15 @@ top: 100px;
 }
 </style>
 <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-  <script type='text/javascript'>
-function moveright(){  redball.left = redball.left + 10
- 
-					}
-		</script>
-		<script>
+
+<script>
+  function moveright(){
+ var elem =$("#Kick");
+var ois=elem.offset();
+pos.left=pos.left+20;
+elem.css=({top:pos.top+'px', left: pos.left+'px'});
+ }
+			
 function grow(){
 	var elem = $("#Kick");
 	elem.css("font-size","64px");
@@ -37,7 +39,7 @@ function shrink(){
 <body>
 <p id="Kick">Day's Bouncy Ball</p>
 <img id='redball' src='http://stream1.gifsoup.com/view1/1148355/karate-kick-to-nuts-o.gif'/>
-<button onclick="moveright();">move right</button>
+<button onclick="moveright()">move right</button>
 <button onclick="grow();">grow</button>
 <button onclick="fadeout();">fade out</button>
 <button onclick="fadein();">fade in</button>
