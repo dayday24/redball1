@@ -15,7 +15,7 @@ float: right
   <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    < name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -60,22 +60,21 @@ function sayhelloworld(){
  <body>
  <div>
 	   
-<button onclick="movedown()")>Move Down</button>
+
 <script type='text/javascript'>
 	function movedown(){ redball.top = redball.top + 10
 			}
 	 </script>
-	 <button onclick="moveright()")>Move Right</button>
+	
 	<script type='text/javascript'>
 	  function moveright() { redball.left = redball.left + 10
 					}
 		</script>
-<button onclick="moveleft()")>Move Left</button>
 <script type='text/javascript'>
  function moveleft(){ redball.left = redball.left - 10
 				} 
 		</script>
-	<button onclick="moveup()")>Move up</button>
+	
 	<script type='text/javascript'>
 		function moveup(){ redball.top = redball.top - 10
             }
@@ -118,10 +117,10 @@ function sayhelloworld(){
 <button onclick="movesquare();")>Move In A Square</button>
 <button onclick="movetri();")>Move In A Triangle</button>
 <button onclick="moveoct();")>Move In An Octagon</button>
-<button onclick="moverightALERT();")>Move right 2</button>
-<button onclick="moveleftALERT();")>Move left 2</button>
-<button onclick="moveupALERT();">Move up 2</button>
-<button onclick="movedownALERT();">Move down 2</button>
+<button onclick="moverightALERT();")>Move right </button>
+<button onclick="moveleftALERT();")>Move left </button>
+<button onclick="moveupALERT();">Move up </button>
+<button onclick="movedownALERT();">Move down </button>
 </div>
 <script>
 function moveupALERT() {
@@ -144,7 +143,7 @@ moveright();
 </script>
 
 <script>
-function moveleftALERT() {
+function moveleftALERT () {
 if (redball.left<10){
 alert ("Go Back")
 	}
@@ -155,7 +154,7 @@ moveleft();
 	
 </script>
 <script>
-function movedownALERT() { 
+function movedownALERT (){ 
 if (redball.top>200){
 alert ("Here we go again")
 	}
